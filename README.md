@@ -23,7 +23,7 @@ El template de clase `Multiplies` debera almacenar en un arreglo dinámico los v
 
 debera implementarse los siguientes métodos:
 - `begin()` que retorne el puntero a la dirección del primer valor
-- `end()` que retorne un puntero a la dirección posterior del segundo valor
+- `end()` que retorne un puntero a la dirección posterior al ultimo valor
 - `size()` que retorne la cantidad de múltiplos.
 - el operador `[]` que retorne el valor en el indice seleccionado
 
