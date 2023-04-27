@@ -33,7 +33,7 @@ adicionalmente debe de implementarse el operador ^ que realice la intersección 
 ```cpp
 Multiplies<int> m1("1 20 3 4 5 10 15", 5);
 auto m2 = m1;
-for (int i = 1; i < m2.size(); ++i)
+for (int i = 0; i < m2.size(); ++i)
     cout << m2[i] << " "; // 20 5 10 15
 ```
 
