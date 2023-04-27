@@ -50,7 +50,7 @@ for (auto ptr = m2.begin(); ptr != m2.end(); ++ptr)
 Multiplies<double> m1("1 20 3 4 5 10 15", 5);
 auto m2 = m1;
 double arr[] = {10, 20, 3};
-auto m2 = m2 ^ arr; 
+m2 = m2 ^ arr; 
 for (auto ptr = m2.begin(); ptr != m2.end(); ++ptr)
     cout << *ptr << " "; // 10 20 
 ```
